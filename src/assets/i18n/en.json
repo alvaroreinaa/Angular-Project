@@ -1,0 +1,54 @@
+{
+    "navbar": {
+        "home": "Home",
+        "list": "List",
+        "about": "About this Project"
+    },
+    "footer": {
+        "author": "Web Made by Alvaro Reina"
+    },
+    "home-information": {
+        "title": "Information about the anime",
+        "content": "My Hero Academia (僕のヒーローアカデミア Boku no Hīrō Akademia?) is a manga series written and illustrated by Kōhei Horikoshi. It is based on a one-shot made by the same author and published in the fifth volume of the manga Ōmagadoki Dōbutsuen under the name My Hero.12 On January 11, 2015, a VOMIC based on the manga was released."
+    },
+    "home-plot": {
+        "title": "Plot of the anime",
+        "content": "Boku no Hero Academia is set in a world in which 80% of the world's population has developed superpowers. These powers begin to appear at the age of 4 years of age of each individual and each one develops very different characteristics. Because of this, numerous superheroes and supervillains have appeared. Our protagonist, Izuku Midoriya, belongs to that 20% of the population that does not have superpowers but his great dream is to study at the U.A. academy and become a hero like his idol All Might."
+    },
+    "home-functioning": {
+        "title": "Functioning of the website",
+        "content": "On this website you can see a list of all anime characters in the LIST tab. You can access a detailed view of the character by clicking on his image."
+    },
+    "list-component": {
+        "title": "List of Characters",
+        "browser": "Search specific character"
+    },
+    "hero-characteristics": {
+        "title": "Hero Characteristics",
+        "quirk-field": "Quirk:",
+        "affiliation-field": "Affiliation:",
+        "teams-field": "Teams:"
+    },
+    "hero-personal": {
+        "title": "Personal Data",
+        "alias-field": "Alias:",
+        "description-field": "Description:",
+        "birthday-field": "Birthday:",
+        "status-field": "Status:"
+    },
+    "hero-description": {
+        "title": "Physical Description",
+        "gender-field": "Gender:",
+        "height-field": "Height:",
+        "hair-field": "Hair Color:",
+        "eye-field": "Eye Color",
+        "bloodtype-field": "Bloodtype"
+    },
+    "about": {
+        "title": "Thanks for visiting my website!",
+        "acknowledgements": "I hope you enjoyed it and learned things about the universe of my hero academy. But most importantly, I hope you start watching it if you haven't seen it yet, what are you waiting for!",
+        "github": "Here is my github if you want to see other personal projects:",
+        "github-link": "My Creations",
+        "farewell": "But before you go, always remember this...PLUS ULTRA"
+    }
+}
