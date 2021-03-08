@@ -1,0 +1,23 @@
+<div class="personal-data" *ngIf="personalData">
+    <h2 class="personal-data__title"> {{ "hero-personal.title" | translate }}</h2>
+    
+    <div class="personal-data__field">
+        <p class="personal-data__field-title"> {{ "hero-personal.alias-field" | translate }} </p>
+        <p class="personal-data__field-content"> {{ this.personalData.alias }}</p>
+    </div>
+    
+    <div class="personal-data__field">
+        <p class="personal-data__field-title"> {{ "hero-personal.description-field" | translate }} </p> 
+        <p class="personal-data__field-content"> {{ this.personalData.description }}</p>
+    </div>
+    
+    <div class="personal-data__field">
+        <p class="personal-data__field-title"> {{ "hero-personal.birthday-field" | translate }} </p>
+        <p class="personal-data__field-content"> {{ this.personalData.birthday }} </p>
+    </div>
+
+    <div class="personal-data__field">
+        <p class="personal-data__field-title"> {{ "hero-personal.status-field" | translate }} </p>
+        <p class="personal-data__field-content"> {{ this.personalData.status }} </p>
+    </div>
+</div>

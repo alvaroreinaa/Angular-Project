@@ -1,0 +1,9 @@
+<nav class="navbar">
+    <a class="navbar__menu" [routerLink]="['/home']"> {{ 'navbar.home' | translate }} </a>
+    <a class="navbar__menu" [routerLink]="['/list']"> {{ 'navbar.list' | translate }} </a>
+    <a class="navbar__menu" [routerLink]="['/about']"> {{ 'navbar.about' | translate }} </a>
+    <select class="navbar__select" (change)="changeLanguage($event)">
+        <option default value="en"> EN </option>
+        <option value="es"> ES </option>
+    </select>
+</nav>

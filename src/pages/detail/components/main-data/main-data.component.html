@@ -1,0 +1,6 @@
+<div *ngIf="this.mainData">
+    <h2 class="main-data__character-name"> {{ this.mainData.id }} </h2>
+    <div class="main-data__image-container main-data__image-container--zoom">
+        <img class="main-data__character-image" src="{{ this.mainData.images }}" alt="{{ this.mainData.id }}">  
+    </div>
+</div>
