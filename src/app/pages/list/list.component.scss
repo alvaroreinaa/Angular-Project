@@ -1,0 +1,79 @@
+@import 'src/styles/_variables.scss';
+@import 'src/styles/_global.scss';
+@import 'src/styles/_colors.scss';
+@import 'src/styles/_mixin.scss';
+
+.characters {
+    &__title {
+        font-family: $title_font;
+        font-size: 26px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    &__browser {
+        text-align: center;
+    }
+
+    &__browser-title {
+        font-family: $title_font;
+        margin-bottom: 10px;
+    }
+
+    &__browser-input {
+        font-family: $content-font;
+        background-color: $grey-color;
+        font-size: 16px;
+        text-align: center;
+        border-radius: 5px;
+        border: 0px;
+        padding: 2px;
+        width: 250px;
+        margin-bottom: 10px;
+
+        @include landscape-mobile {
+            width: 300px;
+        }
+
+        @include tablets {
+            width: 400px;
+        }
+
+        @include desktop {
+            width: 600px;
+        }
+    }
+
+    &__list {
+        @extend %flex-row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-family: $content_font;
+        margin-bottom: 15px;
+    }
+
+    &__container-button {
+        @extend %flex-row;
+        justify-content: space-around;
+    }
+
+    &__button {
+        font-family: $content_font;
+        color: $black-color;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        border: none;   
+        font-size: 20px;
+        padding: 10px 15px;      
+        border-radius: 5px;
+        margin-left: 15px;
+        margin-top: 3px;
+
+        &:hover {
+            cursor: pointer;
+            opacity: 0.7;            
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@import 'src/styles/components/_detail-child-components.scss';
+
+.physical-description {
+    @extend %detail-container; 
+    
+    &__field {
+        @extend %detail-section;
+    }
+
+    &__title {
+        @extend %detail-section-heading;
+    }
+
+    &__field-title {
+        @extend %detail-section-field-title;
+    }
+
+    &__field-content {
+        @extend %detail-section-field-content;
+    }
+}

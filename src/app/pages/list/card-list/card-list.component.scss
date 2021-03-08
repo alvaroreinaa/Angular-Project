@@ -1,0 +1,49 @@
+@import "src/styles/_global.scss";
+@import "src/styles/_mixin.scss";
+
+.character-card-list {
+    @extend %flex-column-center;
+    margin: 10px;
+
+    @include tablets {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    @include desktop {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    &__name {
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    &__image {
+        width: 325px;
+        height: 250px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        object-fit:scale-down;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        @include landscape-mobile {
+            width: 375px;
+            height: 300px;
+        }
+
+        @include tablets {
+            width: 425px;
+            height: 350px;
+        }
+
+        @include desktop {
+            width: 425px;
+            height: 350px;
+        }
+    }
+}
